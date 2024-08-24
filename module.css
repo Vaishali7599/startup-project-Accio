@@ -1,0 +1,121 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+
+}
+body{
+    background-color: black;
+    font-family: "Montserrat", sans-serif;
+  
+}
+.c2 a{
+    padding: 10px;
+}
+.nav a{
+    
+    text-decoration: none;
+    background-color: darkgoldenrod;
+    color: black;
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: darkgoldenrod;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /* margin: 10px; */
+}
+
+.page{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+
+}
+button{
+    border-radius: 20px;
+    background-color: darkgoldenrod;
+    color: black;
+   
+    padding: 10px 30px 10px 30px;
+    margin: 10px;
+
+}
+h1{
+    color: white;
+    padding: 10px;
+    margin: 10px;
+
+}
+h2{
+    color: darkgoldenrod;
+    padding: 10px;
+    margin: 10px;
+    font-size: 30px;
+    
+
+}
+table{
+    
+    color: darkgoldenrod;
+
+    border: 1px solid darkgoldenrod;
+    width: 95%;
+    padding: 20px;
+    margin: 20px;
+    /* border-style: hidden; */
+    border-collapse: collapse;
+}
+td, tr{
+    border: 1px solid darkgoldenrod;
+    padding: 10px;
+    /* margin: 10px; */
+
+}
+form input{
+    border-radius: 50px;
+    background-color: black;
+    border: 1px solid darkgoldenrod;
+    color: darkgoldenrod;
+    padding: 20px;
+    /* outline: none; */
+
+}
+
+form input:focus{
+    outline: none;
+}
+
+form input::placeholder{
+    color: darkgoldenrod;
+}
+
+p{
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    text-align: justify;
+}
+.buttonsubmit{
+    border-radius: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 10px 20px 10px 20px;
+
+}
+form div{
+    width: 100%;
+}
+form div > input{
+    width: 100%;
+}
+.input{
+    display: flex;
+}
